@@ -1,8 +1,10 @@
 body {
-    margin-left: 20px;
     background-image: linear-gradient(to right, #0F3443 , #34E89E);
     background-size: 100%;
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 form {
@@ -72,3 +74,14 @@ footer {
     text-align: center;
     margin-top: 40px;
 }
+
+.move-right {
+  padding-left: 20px;
+}
+
+form {
+  padding-left: 20px;
+}
+
+footer {
+  
